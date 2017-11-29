@@ -1,3 +1,4 @@
+'user strict'
 var _ = require('lodash');
 
 module.export = function isEqual(obj_1, obj_2){

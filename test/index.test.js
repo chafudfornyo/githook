@@ -6,6 +6,9 @@ describe('Testando a aplicação', function(){
         expect(true).to.be.equal(index.isEqual(2,2));
     });
     it('Teste de Igualdade entre objetos com falha', function(){
-        expect(true).to.be.equal(index.isEqual(2,3));
+        expect(false).to.be.equal(index.isEqual(2,3));
+    });
+    it('teste commit',function(){
+        
     });
 });

@@ -12,6 +12,5 @@ describe('Testando a aplicação', function(){
         var message = '[AAAA-83333][will]Teste';
         var regex_validar = /^\[[A..Z]{4}-\d{4,5}\]\s?\[\w+\]\s?.*/
         expect(true).to.be.equal(regex_validar.test(message));
-        
     });
 });
